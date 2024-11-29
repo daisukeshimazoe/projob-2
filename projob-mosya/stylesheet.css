@@ -2,6 +2,10 @@
 
 
 
+body {
+  margin: 0;
+}
+
 .wrapper {
   display: flex;
   justify-content: space-between;
@@ -121,8 +125,8 @@ p {
   line-height: 1px;
 }
 
-span::before {
-  margin: 5px;
+.texst {
+  margin-left: 30px;
 }
 
 br {
@@ -138,17 +142,19 @@ br {
 .contact-text {
   text-align: center;
   margin-bottom: 65px;
+  width: 100%;
 }
 
 
 .textbox {
-  padding: 15px;
-  width: 600px;
+  height: 40px;
+  width: 50%;
+  margin-left: 22px;
 }
 
 textarea {
   height: 200px;
-  width: 600px;
+  width: 50%;
 }
 
 
@@ -187,10 +193,16 @@ footer {
 
 
 
+
+
   /* ヘッダー */
   .wrapper {
     display: flex;
     flex-direction: column;
+  }
+
+  h1 {
+    margin: 0;
   }
 
   .my-work {
@@ -218,6 +230,10 @@ footer {
   }
 
   /* アバウト */
+
+  .about-title {
+    margin-top: 40px;
+  }
 
   #about p {
     display: inline-block;
@@ -259,11 +275,13 @@ br {
 }
 
 .textbox {
-  width: 90%;
+  width: 98%;
+  margin: 0;
 }
 
 textarea {
-  width: 96%;
+  width: 98%;
+  margin: 0;
 }
 
 }
